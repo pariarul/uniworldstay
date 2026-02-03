@@ -45,7 +45,7 @@ export const metadata = {
     siteName: 'Uniworldstay',
     images: [
       {
-        url: '/og-image.png',
+        url: '/logo.png',
         width: 1200,
         height: 630,
         alt: 'Uniworldstay – Global Co-Living Platform',
