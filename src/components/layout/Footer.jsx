@@ -65,11 +65,15 @@ const Footer = () => {
                         <ul className="space-y-4 text-sm">
                             <li className="flex items-start space-x-3">
                                 <MapPin size={18} className="text-blue-400 shrink-0" />
-                                <span>RV Tower, High Road, Thrissur, Kerala – 680001</span>
+                                <span>Registed office : 1/56 C, Lalita Park, Laxmi Nagar, New Delhi, Delhi 110092</span>
+                            </li>
+                                                        <li className="flex items-start space-x-3">
+                                <MapPin size={18} className="text-blue-400 shrink-0" />
+                                <span>Marketing office  : Level 3 RVK Tower High Road Thrissur 680001</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <Phone size={18} className="text-blue-400 shrink-0" />
-                                <a href="tel:+919995519999" className="hover:text-white">+91 999 551 9999</a>
+                                <a href="tel:+919613333393" className="hover:text-white">+91 961 333 3393</a>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <Mail size={18} className="text-blue-400 shrink-0" />

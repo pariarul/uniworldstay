@@ -19,17 +19,17 @@ const ContactCTA = () => {
                         <p className="text-blue-100 text-lg leading-relaxed max-w-md">
                             Our support team is here to help you every step of the way. Get in touch with us for personalized housing advice.
                         </p>
-                        <div className="flex flex-col sm:flex-row gap-6">
-                            <a href="tel:+919995519999" className="flex items-center space-x-4 bg-white/10 hover:bg-white/20 p-4 rounded-2xl transition-all border border-white/10">
+                        <div className=" sm:flex-row gap-6">
+                            <a href="tel:+9196133 33393" className="flex items-center space-x-4 bg-white/10 hover:bg-white/20 p-4 rounded-2xl transition-all border border-white/10">
                                 <div className="w-12 h-12 bg-white text-primary rounded-xl flex items-center justify-center">
                                     <Phone size={24} />
                                 </div>
                                 <div>
                                     <p className="text-xs font-bold uppercase tracking-widest text-blue-200 opacity-80">Call Us</p>
-                                    <p className="text-lg font-bold">+91 999 551 9999</p>
+                                    <p className="text-lg font-bold">+91 96133 33393</p>
                                 </div>
                             </a>
-                            <a href="mailto:info@uniworldstay.com" className="flex items-center space-x-4 bg-white/10 hover:bg-white/20 p-4 rounded-2xl transition-all border border-white/10">
+                            <a href="mailto:info@uniworldstay.com" className="mt-2 flex items-center space-x-4 bg-white/10 hover:bg-white/20 p-4 rounded-2xl transition-all border border-white/10">
                                 <div className="w-12 h-12 bg-white text-primary rounded-xl flex items-center justify-center">
                                     <Mail size={24} />
                                 </div>
@@ -41,7 +41,7 @@ const ContactCTA = () => {
                         </div>
                     </div>
 
-                    <div className="bg-white rounded-[32px] p-8 md:p-12 text-slate-900 shadow-2xl">
+                    <div className="bg-white rounded-[32px] p-8 md:p-12 text-slate-900 shadow-2xl ">
                         <h3 className="text-2xl font-bold mb-6">Quick Enquiry</h3>
                         <div className="space-y-4">
                             <input

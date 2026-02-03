@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
-import LoginModal from '@/components/layout/LoginModal';
+import WhatsAppButton from './WhatsAppButton';
 
 export default function ClientLayout({ children }) {
     const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
@@ -13,11 +13,9 @@ export default function ClientLayout({ children }) {
             <main className="flex-grow">
                 {children}
             </main>
+            <WhatsAppButton />
             <Footer />
-            <LoginModal
-                isOpen={isLoginModalOpen}
-                onClose={() => setIsLoginModalOpen(false)}
-            />
+        
         </>
     );
 }
