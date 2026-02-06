@@ -34,11 +34,10 @@ const Navbar = () => {
     <>
       {/* ===== Navbar ===== */}
       <nav
-        className={`fixed w-full z-50 transition-all duration-300 ${
-          scrolled
-            ? 'bg-white/80 backdrop-blur-md shadow-sm py-3'
-            : 'bg-transparent py-5'
-        }`}
+        className={`fixed w-full z-50 transition-all duration-300 ${scrolled
+          ? 'bg-white/80 backdrop-blur-md shadow-sm py-3'
+          : 'bg-transparent py-5'
+          }`}
       >
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center">
@@ -50,7 +49,7 @@ const Navbar = () => {
                 width={200}
                 height={400}
                 priority
-                className="h-15 w-auto object-contain"
+                className="h-17 w-auto object-contain"
               />
             </Link>
 
